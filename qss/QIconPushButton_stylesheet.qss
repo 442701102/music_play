@@ -1,0 +1,44 @@
+/* 鼠标按下时的效果 */
+QPushButton:pressed 
+{
+    /* 前景色 */
+    color:red;
+    /* 背景色 */
+    background-color:rgb(128,128,0);
+    /* 改变边框风格 */
+    border-style:ridge;
+    /* 边框宽度 */
+    border-width:5px;
+    /* 边框颜色 */
+    border-color:rgb(139,101,8);
+}
+
+/* 按钮样式 */
+#QPushButton:flat 
+{
+	border:2px solid red;
+}
+
+/* 当按钮打开菜单时:ui->pushButton->setMenu(btnMenu) */
+QPushButton:open
+{
+	background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+/* 子选择器:菜单 */
+QPushButton::menu-indicator 
+{
+	image:url(:/images/close.png);
+	/* 去掉小三角号 
+	image:none;*/
+	/* 绘制subcontrol 的参考矩形的位置 */
+	subcontrol-origin:padding;
+	/* 小三角的位置 */
+	subcontrol-position:bottom right;
+}
+
+#QPushButton::menu-indicator:pressed,QPushButton::menu-indicator:open {
+	position:relative;
+	top:4px;
+	left:4px;
+}

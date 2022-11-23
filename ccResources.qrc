@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/cycle.ico</file>
+        <file>icon/download.ico</file>
+        <file>icon/Fastforward.ico</file>
+        <file>icon/first.ico</file>
+        <file>icon/pause.ico</file>
+        <file>icon/play.ico</file>
+        <file>icon/playing.ico</file>
+        <file>icon/Previous.ico</file>
+        <file>icon/stop.ico</file>
+        <file>image/music_background01.jpg</file>
+        <file>image/music_background02.jpg</file>
+        <file>image/music_background.jpg</file>
+        <file>qss/Public.qss</file>
+        <file>qss/QIconPushButton_stylesheet.qss</file>
+        <file>qss/QPushButton_stylesheet.qss</file>
+    </qresource>
+</RCC>
